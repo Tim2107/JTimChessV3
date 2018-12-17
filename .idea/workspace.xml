@@ -1,63 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73bc48d0-555f-4dba-808e-852e256d63fa" name="Default" comment="Position Translator added, gui extension, project structure refactored">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JTimChess.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gui/Table.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/PositionTranslator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/utils/PositionTranslatorTest.java" />
+    <list default="true" id="73bc48d0-555f-4dba-808e-852e256d63fa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/Alliance.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/Board.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/ChessField.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/Position.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/patterns/BishopPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/patterns/ChessPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/patterns/ChessPatternBase.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/patterns/KingPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/patterns/KnightPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/patterns/PawnPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/patterns/QueenPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/patterns/RookPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/pieces/Bishop.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/pieces/King.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/pieces/Knight.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/pieces/Pawn.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/pieces/Piece.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/pieces/Queen.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/pieces/Rook.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/logic/pieces/BishopTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/logic/pieces/KingTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/logic/pieces/KnightTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/logic/pieces/PawnTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/logic/pieces/QueenTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/logic/pieces/RookTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/Alliance.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/Board.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/ChessField.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/Position.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/patterns/BishopPattern.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/patterns/ChessPattern.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/patterns/ChessPatternBase.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/patterns/KingPattern.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/patterns/KnightPattern.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/patterns/PawnPattern.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/patterns/QueenPattern.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/patterns/RookPattern.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/pieces/Bishop.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/pieces/King.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/pieces/Knight.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/pieces/Pawn.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/pieces/Piece.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/pieces/Queen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/pieces/Rook.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logic/pieces/BishopTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logic/pieces/KingTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logic/pieces/KnightTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logic/pieces/PawnTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logic/pieces/QueenTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logic/pieces/RookTest.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -95,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PositionTranslator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PositionTranslator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/PositionTranslator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="109">
@@ -117,18 +62,18 @@
       <file leaf-file-name="PositionTranslatorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/PositionTranslatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-200">
+            <state relative-caret-position="608">
               <caret line="32" column="95" lean-forward="false" selection-start-line="32" selection-start-column="95" selection-end-line="32" selection-end-column="95" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BishopTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/pieces/BishopTest.java">
+      <file leaf-file-name="KnightTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/pieces/KnightTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="320">
+              <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -419,27 +364,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PositionTranslatorTest.TileIdKnownConversion">
+  <component name="RunManager" selected="JUnit.KnightTest.printTacticalOverlayPattern">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="JTimChess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="JTimChess" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JTimChessV2" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -468,6 +399,31 @@
       <option name="PACKAGE_NAME" value="gameLogic.pieces" />
       <option name="MAIN_CLASS_NAME" value="gameLogic.pieces.BishopTest" />
       <option name="METHOD_NAME" value="printPotentialMoves" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="KnightTest.printTacticalOverlayPattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="gameLogic.pieces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JTimChessV2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="gameLogic.pieces" />
+      <option name="MAIN_CLASS_NAME" value="gameLogic.pieces.KnightTest" />
+      <option name="METHOD_NAME" value="printTacticalOverlayPattern" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -617,18 +573,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.BishopTest.printPotentialMoves" />
-      <item index="1" class="java.lang.String" itemvalue="Application.JTimChess" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PositionTranslatorTest.positionKnownConversion" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PositionTranslatorTest.gridLayerKnownConversion" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PositionTranslatorTest.TileIdKnownConversion" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PositionTranslatorTest.positionKnownConversion" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PositionTranslatorTest.gridLayerKnownConversion" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PositionTranslatorTest.TileIdKnownConversion" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.KnightTest.printTacticalOverlayPattern" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PositionTranslatorTest.TileIdKnownConversion" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PositionTranslatorTest.gridLayerKnownConversion" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PositionTranslatorTest.positionKnownConversion" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BishopTest.printPotentialMoves" />
-        <item index="4" class="java.lang.String" itemvalue="Application.JTimChess" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.KnightTest.printTacticalOverlayPattern" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PositionTranslatorTest.positionKnownConversion" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PositionTranslatorTest.TileIdKnownConversion" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PositionTranslatorTest.gridLayerKnownConversion" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BishopTest.printPotentialMoves" />
       </list>
     </recent_temporary>
   </component>
@@ -646,9 +602,20 @@
       <option name="presentableId" value="Default" />
       <updated>1544794099221</updated>
     </task>
+    <task id="LOCAL-00001" summary="Position Translator added, gui extension, project structure refactored">
+      <created>1545053738461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545053738461</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="KnightTest_printTacticalOverlayPattern - 2018.12.17 at 14h 36m 24s.xml">
+      <configuration name="KnightTest.printTacticalOverlayPattern" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="PositionTranslatorTest_TileIdKnownConversion - 2018.12.17 at 14h 31m 17s.xml">
       <configuration name="PositionTranslatorTest.TileIdKnownConversion" configurationId="JUnit" />
     </history-entry>
@@ -661,15 +628,6 @@
     <history-entry file="PositionTranslatorTest_gridLayerKnownConversion - 2018.12.17 at 14h 30m 24s.xml">
       <configuration name="PositionTranslatorTest.gridLayerKnownConversion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PositionTranslatorTest_positionKnownConversion - 2018.12.17 at 14h 20m 13s.xml">
-      <configuration name="PositionTranslatorTest.positionKnownConversion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PositionTranslatorTest_positionKnownConversion - 2018.12.17 at 14h 20m 37s.xml">
-      <configuration name="PositionTranslatorTest.positionKnownConversion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PositionTranslatorTest_positionKnownConversion - 2018.12.17 at 14h 21m 02s.xml">
-      <configuration name="PositionTranslatorTest.positionKnownConversion" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PositionTranslatorTest_positionKnownConversion - 2018.12.17 at 14h 21m 17s.xml">
       <configuration name="PositionTranslatorTest.positionKnownConversion" configurationId="JUnit" />
     </history-entry>
@@ -679,6 +637,12 @@
     <history-entry file="PositionTranslatorTest_positionKnownConversion - 2018.12.17 at 14h 22m 35s.xml">
       <configuration name="PositionTranslatorTest.positionKnownConversion" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PositionTranslatorTest_positionKnownConversion - 2018.12.17 at 14h 36m 06s.xml">
+      <configuration name="PositionTranslatorTest.positionKnownConversion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PositionTranslatorTest_positionKnownConversion - 2018.12.17 at 14h 36m 14s.xml">
+      <configuration name="PositionTranslatorTest.positionKnownConversion" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="690" y="27" width="1366" height="732" extended-state="6" />
@@ -686,13 +650,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32642487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32642487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32642487" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32642487" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -722,7 +686,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -901,13 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/pieces/KnightTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -1318,14 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/PositionTranslatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="32" column="95" lean-forward="false" selection-start-line="32" selection-start-column="95" selection-end-line="32" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/PositionTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -1340,6 +1289,22 @@
             <element signature="e#2585#2586#0" expanded="true" />
             <element signature="e#2617#2618#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/PositionTranslatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="95" lean-forward="false" selection-start-line="32" selection-start-column="95" selection-end-line="32" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/pieces/KnightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
