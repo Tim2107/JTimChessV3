@@ -10,8 +10,6 @@ public class KnightPattern extends ChessPatternBase implements ChessPattern {
         int column = position.convertPositionToColumn();
         int row = position.convertPositionToRow();
 
-        grid[column][row] = PIECE_DUMMY;
-
         if (column - 2 > -1 && row - 1 > -1) {
             grid[column - 2][row - 1] = alliance.indicator;
         }

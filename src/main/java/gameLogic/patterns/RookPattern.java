@@ -11,8 +11,6 @@ public class RookPattern extends ChessPatternBase implements ChessPattern  {
         int column = position.convertPositionToColumn();
         int row = position.convertPositionToRow();
 
-        grid[column][row] = PIECE_DUMMY;
-
         for (int i = 0; i < 8; i++) {
             if (i != row) {
                 grid[column][i] = alliance.indicator;

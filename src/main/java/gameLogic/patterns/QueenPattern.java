@@ -10,13 +10,8 @@ public class QueenPattern extends ChessPatternBase implements ChessPattern {
 
     @Override
     public void setChessPatternForPosition(Position position, Alliance alliance) {
-
-        int column = position.convertPositionToColumn();
-        int row = position.convertPositionToRow();
-
         composeQueenPattern(bishopPartQueenPattern.getChessPattern(position, alliance));
         composeQueenPattern(rookPartQueenPattern.getChessPattern(position,alliance));
-        grid[column][row] = PIECE_DUMMY;
         }
 
     @Override

@@ -11,8 +11,6 @@ public class KingPattern extends ChessPatternBase implements ChessPattern {
         int column = position.convertPositionToColumn();
         int row = position.convertPositionToRow();
 
-        grid[column][row] = PIECE_DUMMY;
-
         if (column != 0 && row != 0) {
             grid[column - 1][row - 1] = alliance.indicator;
         }

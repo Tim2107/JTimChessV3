@@ -11,8 +11,6 @@ public class PawnPattern extends ChessPatternBase implements ChessPattern {
         int column = position.convertPositionToColumn();
         int row = position.convertPositionToRow();
 
-        grid[column][row] = PIECE_DUMMY;
-
         if (alliance == Alliance.WHITE) {
             if (row != 7 && column != 0) {
                 grid[column - 1][row + 1] = alliance.indicator;
