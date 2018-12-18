@@ -19,6 +19,10 @@ public class ChessField {
     Piece isRailroadForPiece;
     ChessPattern railroad;
 
+    Piece isPinnedByPiece;
+    ChessPattern pin;
+
+     
 
     public ChessField(Position position, Piece piece){
         this.position = position;

@@ -10,6 +10,11 @@ public class Board {
     ChessField[][] boardGrid = new ChessField[8][8];
     List<Piece> activePieces = new ArrayList<>();
 
+
+    public Board(){
+        initBoardGrid();
+    }
+
     public ChessField getChessfield(Position position) {
         return boardGrid[position.convertPositionToColumn()][position.convertPositionToRow()];
     }
@@ -42,5 +47,10 @@ public class Board {
         String positionNotation = columnInPosition + rowInPosition;
         ChessField emptyChessField = new ChessField(Position.valueOf(positionNotation), null);
         return emptyChessField;
+    }
+
+    public void putPieceOnField(Piece piece){
+        PositionTranslator setBoardTranslator = new PositionTranslator(piece.getPosition(),null,null,null);
+        boardGrid[setBoardTranslator.getColumnInLogicGrid()][setBoardTranslator.getRowInLogicGrid()].setIsOccupiedBy(piece);
     }
 }
