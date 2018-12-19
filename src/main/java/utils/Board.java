@@ -19,6 +19,37 @@ public class Board {
         return boardGrid[position.convertPositionToColumn()][position.convertPositionToRow()];
     }
 
+    public List<Piece> getActivePiecesFromFields(){
+        List<Piece> activePieces = new ArrayList<>();
+
+        List<ChessField> fieldList = this.getFieldList();
+            this.getFieldList()
+              .stream()
+              .map(field -> field.getIsOccupiedBy())
+          .forEach(piece ->
+                  {if (piece != null){
+                      activePieces.add(piece);
+                      }
+                  }
+          );
+        return activePieces;
+    }
+
+   // public List<ChessField> getFieldList(){
+   //     List fieldList = Arrays.asList(boardGrid);
+   //     return fieldList;
+   // }
+
+    public List<ChessField> getFieldList(){
+        List<ChessField> fieldList = new ArrayList();
+        for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < 8; j++) {
+                fieldList.add(boardGrid[i][j]);
+            }
+        }
+        return fieldList;
+    }
+
     public ChessField[][] createBoardGrid() {
 
         initBoardGrid();

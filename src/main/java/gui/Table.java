@@ -1,6 +1,8 @@
 package gui;
 
+import gameLogic.Analyzer;
 import gameLogic.pieces.Piece;
+import gameLogic.pieces.Queen;
 import utils.*;
 
 import javax.imageio.ImageIO;
@@ -45,7 +47,8 @@ public final class Table {
 
     public Table() {
         InitializeGame newGame = new InitializeGame();
-        this.board = newGame.getStartingBoard();
+        //this.board = newGame.getStartingBoard();
+        this.board = createBoard();
         this.gameFrame = new JFrame("JTimChess");
         this.gameFrame.setLayout(new BorderLayout());
         final JMenuBar tableMenuBar = createTableMenubar();
@@ -54,6 +57,16 @@ public final class Table {
         this.boardPanel = new BoardPanel();
         this.gameFrame.add(this.boardPanel, BorderLayout.CENTER);
         this.gameFrame.setVisible(true);
+    }
+
+
+    public Board createBoard(){
+        Board board1 = new Board();
+        Queen whiteQueen = new Queen("white queen", Position.E1);
+        Queen blackQueen = new Queen("black queen", Position.E8);
+        board1.putPieceOnField(whiteQueen);
+        board1.putPieceOnField(blackQueen);
+        return board1;
     }
 
     private JMenuBar createTableMenubar() {
@@ -111,8 +124,11 @@ public final class Table {
             this.tileId = tileId;
             setPreferredSize(TILE_PANEL_DIMENSION);
 
-            assignTileColorEmptyBoard();
+            Analyzer analyzer = new Analyzer(board.getActivePiecesFromFields());
+           assignTileColorFromGrid(analyzer.getCompositionGrid());
+            //assignTileColorEmptyBoard();
             assignTilePieceIcon(board);
+
             addMouseListener(new MouseListener() {
                @Override
                 public void mouseClicked(MouseEvent mouseEvent) {

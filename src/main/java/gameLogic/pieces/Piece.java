@@ -6,12 +6,14 @@ import utils.Position;
 
 public class Piece {
 
-    String name;
-    Position position;
-    Alliance alliance;
-    Alliance tacticalOverlayAlliance;
-    ChessPattern movePattern;
-    ChessPattern tacticalOverlayPattern;
+    private String name;
+    private Position position;
+
+    private Alliance alliance;
+    private ChessPattern movePattern;
+
+    private Alliance tacticalOverlayAlliance;
+    private ChessPattern tacticalOverlayPattern;
 
 
     public Piece(){}

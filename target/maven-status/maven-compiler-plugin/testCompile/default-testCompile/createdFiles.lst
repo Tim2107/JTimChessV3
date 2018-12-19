@@ -1,0 +1,10 @@
+gameLogic/pieces/QueenTest.class
+gameLogic/pieces/RookTest.class
+gameLogic/pieces/BishopTest.class
+utils/PositionTranslatorTest.class
+gameLogic/AnalyzerTest.class
+gui/TableTest.class
+gameLogic/pieces/KnightTest.class
+gameLogic/pieces/PawnTest.class
+gameLogic/pieces/KingTest.class
+utils/BoardTest.class
