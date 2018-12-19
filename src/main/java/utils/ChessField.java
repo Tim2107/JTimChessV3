@@ -22,15 +22,11 @@ public class ChessField {
     Piece isPinnedByPiece;
     ChessPattern pin;
 
-     
+
 
     public ChessField(Position position, Piece piece){
         this.position = position;
         this.isOccupiedBy = piece;
-    }
-
-    public Piece getPiece(){
-        return this.isOccupiedBy;
     }
 
     public Position getPosition() {

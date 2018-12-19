@@ -3,12 +3,11 @@ package gameLogic.patterns;
 public abstract class ChessPatternBase {
 
     int[][]grid = new int[8][8];
-    final int PIECE_DUMMY = 9;
 
     public ChessPatternBase(){
+
         this.grid = initializeGrid();
     }
-
 
     private int[][] initializeGrid() {
         for (int i = 0; i < 8; i++) {
