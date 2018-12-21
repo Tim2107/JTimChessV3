@@ -1,6 +1,6 @@
 package gameLogic;
 
-import gameLogic.analyzationTools.Analyzer;
+import gameLogic.analyzationTools.AttackAnalyzer;
 import gameLogic.pieces.Piece;
 import gameLogic.pieces.Queen;
 import org.junit.jupiter.api.Test;
@@ -9,7 +9,7 @@ import utils.Position;
 import java.util.ArrayList;
 import java.util.List;
 
-class AnalyzerTest {
+class AttackAnalyzerTest {
 
 
     @Test
@@ -20,8 +20,8 @@ class AnalyzerTest {
         testList.add(whiteQueen);
         testList.add(blackQueen);
 
-        Analyzer testAnalyzer = new Analyzer(testList);
-        String name = testAnalyzer.getBoardToAnalyze().getChessfield(Position.E8).getIsOccupiedBy().getName();
+        AttackAnalyzer testAttackAnalyzer = new AttackAnalyzer(testList);
+        String name = testAttackAnalyzer.getBoardToAnalyze().getChessfield(Position.E8).getIsOccupiedBy().getName();
         System.out.println(name);
     }
 
@@ -34,8 +34,8 @@ class AnalyzerTest {
         testList.add(whiteQueen);
         testList.add(blackQueen);
 
-        Analyzer testAnalyzer = new Analyzer(testList);
-        int[][]analysedGrid = testAnalyzer.getCompositionGrid();
+        AttackAnalyzer testAttackAnalyzer = new AttackAnalyzer(testList);
+        int[][]analysedGrid = testAttackAnalyzer.getCompositionGrid();
 
         for (int j = 7; j > -1; j--) {
             for (int i = 0; i < 8; i++) {

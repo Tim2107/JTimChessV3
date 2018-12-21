@@ -22,8 +22,8 @@ public class Board {
     public List<Piece> getActivePiecesFromFields(){
         List<Piece> activePieces = new ArrayList<>();
 
-        List<ChessField> fieldList = this.getFieldList();
-            this.getFieldList()
+        List<ChessField> fieldList = this.getListOfChessFieldsOnBoard();
+            this.getListOfChessFieldsOnBoard()
               .stream()
               .map(field -> field.getIsOccupiedBy())
           .forEach(piece ->
@@ -35,12 +35,12 @@ public class Board {
         return activePieces;
     }
 
-   // public List<ChessField> getFieldList(){
+   // public List<ChessField> getListOfChessFieldsOnBoard(){
    //     List fieldList = Arrays.asList(boardGrid);
    //     return fieldList;
    // }
 
-    public List<ChessField> getFieldList(){
+    public List<ChessField> getListOfChessFieldsOnBoard(){
         List<ChessField> fieldList = new ArrayList();
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {

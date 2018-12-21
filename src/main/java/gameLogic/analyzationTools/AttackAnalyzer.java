@@ -6,13 +6,13 @@ import utils.GridComposer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Analyzer {
+public class AttackAnalyzer {
 
     Board boardToAnalyze = new Board();
     List<Piece>piecesOnBoard = new ArrayList<>();
     int[][] compositionGrid = new int[8][8];
 
-    public Analyzer(List<Piece> piecesToAnalyze){
+    public AttackAnalyzer(List<Piece> piecesToAnalyze){
         initializeGrid();
         piecesOnBoard = piecesToAnalyze;
         piecesOnBoard.forEach(piece -> boardToAnalyze.putPieceOnField(piece));
@@ -21,7 +21,7 @@ public class Analyzer {
 
     public void composeGridAnalyzation(){
         boardToAnalyze
-                .getFieldList()
+                .getListOfChessFieldsOnBoard()
                 .forEach(field ->
                             {if (field.getIsOccupiedBy() != null)
                                 {GridComposer gridComposer = new GridComposer(

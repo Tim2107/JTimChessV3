@@ -1,8 +1,7 @@
 package gui;
 
-import gameLogic.analyzationTools.Analyzer;
+import gameLogic.analyzationTools.AttackAnalyzer;
 import gameLogic.pieces.Piece;
-import gameLogic.pieces.Queen;
 import utils.*;
 
 import javax.imageio.ImageIO;
@@ -57,10 +56,9 @@ public final class Table {
     private Color isAttacked9Black = new Color (75,0,0);    //(0,75,0);
 
 
-    public Table() {
+    public Table(Board board) {
         InitializeGame newGame = new InitializeGame();
-        this.board = newGame.getStartingBoard();
-        //this.board = createBoard();
+        this.board = board;
         this.gameFrame = new JFrame("JTimChess");
         this.gameFrame.setLayout(new BorderLayout());
         final JMenuBar tableMenuBar = createTableMenubar();
@@ -72,14 +70,6 @@ public final class Table {
     }
 
 
-    public Board createBoard(){
-        Board board1 = new Board();
-        Queen whiteQueen = new Queen("white queen", Position.E1);
-        Queen blackQueen = new Queen("black queen", Position.E8);
-        board1.putPieceOnField(whiteQueen);
-        board1.putPieceOnField(blackQueen);
-        return board1;
-    }
 
     private JMenuBar createTableMenubar() {
         final JMenuBar tableMenuBar = new JMenuBar();
@@ -136,8 +126,8 @@ public final class Table {
             this.tileId = tileId;
             setPreferredSize(TILE_PANEL_DIMENSION);
 
-            Analyzer analyzer = new Analyzer(board.getActivePiecesFromFields());
-           assignTileColorFromGrid(analyzer.getCompositionGrid());
+            AttackAnalyzer attackAnalyzer = new AttackAnalyzer(board.getActivePiecesFromFields());
+           assignTileColorFromGrid(attackAnalyzer.getCompositionGrid());
             //assignTileColorEmptyBoard();
             assignTilePieceIcon(board);
 
