@@ -1,4 +1,4 @@
-package gameLogic;
+package gameLogic.analyzationTools;
 
 import gameLogic.pieces.Piece;
 import utils.Board;
@@ -16,10 +16,10 @@ public class Analyzer {
         initializeGrid();
         piecesOnBoard = piecesToAnalyze;
         piecesOnBoard.forEach(piece -> boardToAnalyze.putPieceOnField(piece));
-        composeGridAnalyze();
+        composeGridAnalyzation();
     }
 
-    public void composeGridAnalyze(){
+    public void composeGridAnalyzation(){
         boardToAnalyze
                 .getFieldList()
                 .forEach(field ->

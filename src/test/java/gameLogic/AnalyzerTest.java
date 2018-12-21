@@ -1,5 +1,6 @@
 package gameLogic;
 
+import gameLogic.analyzationTools.Analyzer;
 import gameLogic.pieces.Piece;
 import gameLogic.pieces.Queen;
 import org.junit.jupiter.api.Test;

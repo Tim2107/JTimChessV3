@@ -1,6 +1,6 @@
 package gui;
 
-import gameLogic.Analyzer;
+import gameLogic.analyzationTools.Analyzer;
 import gameLogic.pieces.Piece;
 import gameLogic.pieces.Queen;
 import utils.*;
@@ -40,15 +40,27 @@ public final class Table {
     private Color isAttacked1White = new Color(0,191,255);
     private Color isAttacked2White = new Color(30,144,250);
     private Color isAttacked3White = new Color(65,105,225);
-    private Color isAttacked1Black = new Color(255,127,80);
-    private Color isAttacked2Black = new Color(255,99,71);
-    private Color isAttacked3Black = new Color(255,69,0);
+    private Color isAttacked4White = new Color(51,51,255);
+    private Color isAttacked5White = new Color(0,0,255);
+    private Color isAttacked6White = new Color(0,0,204);
+    private Color isAttacked7White = new Color(0,0,153);
+    private Color isAttacked8White = new Color(0,0,102);
+    private Color isAttacked9White = new Color(0,0,75);
+    private Color isAttacked1Black = new Color (255,135,75);    //(178,255,102);//(255,127,80);
+    private Color isAttacked2Black = new Color (255,100,85);    //(153,255,51);//(255,99,71);
+    private Color isAttacked3Black = new Color (255,80,20);    //(128,255,0);//(255,69,0);
+    private Color isAttacked4Black = new Color (255,50,20);    //(51,255,51);
+    private Color isAttacked5Black = new Color (255,0,0);    //(0,255,0);
+    private Color isAttacked6Black = new Color (205,0,0);    //(0,204,0);
+    private Color isAttacked7Black = new Color (155,0,0);    //(0,153,0);
+    private Color isAttacked8Black = new Color (105,0,0);    //(0,105,0);
+    private Color isAttacked9Black = new Color (75,0,0);    //(0,75,0);
 
 
     public Table() {
         InitializeGame newGame = new InitializeGame();
-        //this.board = newGame.getStartingBoard();
-        this.board = createBoard();
+        this.board = newGame.getStartingBoard();
+        //this.board = createBoard();
         this.gameFrame = new JFrame("JTimChess");
         this.gameFrame.setLayout(new BorderLayout());
         final JMenuBar tableMenuBar = createTableMenubar();
@@ -208,6 +220,24 @@ public final class Table {
               else if (positionValue == 3){
                   setBackground(isAttacked3White);
               }
+              else if(positionValue == 4){
+                    setBackground(isAttacked4White);
+              }
+              else if (positionValue == 5){
+                    setBackground(isAttacked5White);
+              }
+              else if(positionValue == 6){
+                  setBackground(isAttacked6White);
+              }
+              else if (positionValue == 7){
+                  setBackground(isAttacked7White);
+              }
+              else if(positionValue == 8){
+                  setBackground(isAttacked8White);
+              }
+              else if (positionValue == 9){
+                  setBackground(isAttacked9White);
+              }
             else if(positionValue == -1){
                 setBackground(isAttacked1Black);
             }
@@ -217,6 +247,25 @@ public final class Table {
             else if (positionValue == -3){
                 setBackground(isAttacked3Black);
             }
+              else if(positionValue == -4){
+                  setBackground(isAttacked4Black);
+              }
+              else if (positionValue == -5){
+                  setBackground(isAttacked5Black);
+              }
+              else if(positionValue == -6){
+                  setBackground(isAttacked6Black);
+              }
+              else if (positionValue == -7){
+                  setBackground(isAttacked7Black);
+              }
+              else if(positionValue == -8){
+                  setBackground(isAttacked8Black);
+              }
+              else if (positionValue == -9){
+                  setBackground(isAttacked9Black);
+              }
+
               else{
                   if(((tileId-tileId%8)/8)%2 == 0){
                       if(tileId%2==0)setBackground(lightBoardTileColor);

@@ -22,6 +22,8 @@ public class ChessField {
     Piece isPinnedByPiece;
     ChessPattern pin;
 
+    private Alliance tacticalOverlayAlliance;
+    private ChessPattern tacticalOverlayPattern;
 
 
     public ChessField(Position position, Piece piece){
@@ -43,5 +45,17 @@ public class ChessField {
 
     public void setIsOccupiedBy(Piece isOccupiedBy) {
         this.isOccupiedBy = isOccupiedBy;
+    }
+
+    public void setTacticalOverlayAlliance(Alliance alliance){
+        this.tacticalOverlayAlliance = alliance;
+    }
+
+    public int[][] getTacticalOverlayPattern(){
+        return tacticalOverlayPattern.getChessPattern(this.position,this.tacticalOverlayAlliance);
+    }
+
+    public void setTacticalOverlayPatternType(ChessPattern tacticalPattern){
+        this.tacticalOverlayPattern = tacticalPattern;
     }
 }
