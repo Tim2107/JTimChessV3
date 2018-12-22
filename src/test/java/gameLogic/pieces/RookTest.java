@@ -9,7 +9,7 @@ class RookTest {
 
     @Test
     public void printPotentialMoves() {
-        Rook testRook = new Rook("white rook", Position.B7);
+        Rook testRook = new Rook("white rook", Position.A8);
         for (int j = 7; j > -1; j--) {
             for (int i = 0; i < 8; i++) {
                 System.out.print(testRook.getPotentialMoves()[i][j]);

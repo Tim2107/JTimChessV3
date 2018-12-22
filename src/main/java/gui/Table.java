@@ -1,6 +1,6 @@
 package gui;
 
-import gameLogic.analyzationTools.AttackAnalyzer;
+import gameLogic.analyzationTools.tacticAnalyzers.AttackAnalyzer;
 import gameLogic.pieces.Piece;
 import utils.*;
 

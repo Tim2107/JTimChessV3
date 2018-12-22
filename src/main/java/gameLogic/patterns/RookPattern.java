@@ -19,7 +19,6 @@ public class RookPattern extends ChessPatternBase implements ChessPattern  {
                 grid[i][row] = alliance.indicator;
             }
         }
-
     }
 
     @Override

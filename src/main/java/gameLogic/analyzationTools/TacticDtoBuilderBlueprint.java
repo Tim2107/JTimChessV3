@@ -15,7 +15,8 @@ public class TacticDtoBuilderBlueprint {
     List<Position> positionsToAnalyze;
     List<ChessField> fieldsToAnalyze;
     List<List<ChessField>> combinationsToAnalyzeList =new ArrayList();
-
+    List<Position> fieldsInvolved = new ArrayList<>();
+    List<Position> executionPoints = new ArrayList<>();
 
     public void goThroughListAndMakeSmallCombinationLists(List<ChessField> fieldsToAnalyze){
         for(int firstIndexInList = 0; firstIndexInList < fieldsToAnalyze.size()-1;firstIndexInList++){
@@ -27,4 +28,7 @@ public class TacticDtoBuilderBlueprint {
             }
         }
     }
+
+
+
 }

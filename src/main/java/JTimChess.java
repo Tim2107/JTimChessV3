@@ -19,14 +19,15 @@ public class JTimChess {
         List<Piece> piecesOnBoard = new ArrayList<>();
         //King whiteKing = new King("white king", Position.D1);
         //King blackKing = new King("black king",Position.D8);
-        //Queen whiteQueen = new Queen("white queen", Position.E1);
+        Queen whiteQueen = new Queen("white queen", Position.C8);
+        Queen whiteQueen2 = new Queen("white queen", Position.A1);
         //Queen blackQueen = new Queen("black queen", Position.E8);
         //Rook whiteRook1 = new Rook("white rook",Position.A1);
         //Rook whiteRook2 = new Rook("white rook",Position.H1);
         //Rook blackRook1 = new Rook("black rook",Position.A8);
         //Rook blackRook2 = new Rook("black rook", Position.H8);
-        Knight whiteKnight1 = new Knight("white knight",Position.A8);
-        Knight whiteKnight2 = new Knight("white knight",Position.D5);
+       // Knight whiteKnight1 = new Knight("white knight",Position.A8);
+       // Knight whiteKnight2 = new Knight("white knight",Position.D5);
         //Knight blackKnight1 = new Knight("black knight",Position.B8);
         //Knight blackKnight2 = new Knight("black knight",Position.G8);
         //Bishop whiteBishop1 = new Bishop("white bishop",Position.C1);
@@ -51,11 +52,11 @@ public class JTimChess {
         //Pawn blackPawn8 = new Pawn("black pawn",Position.H7);
 
 
-        piecesOnBoard.add(whiteKnight1);
-        piecesOnBoard.add(whiteKnight2);
+        piecesOnBoard.add(whiteQueen);
+        piecesOnBoard.add(whiteQueen2);
 
         Board board = new BoardCreator().createBoard(piecesOnBoard);
 
-        Table table = new Table(startingBoard);
+        Table table = new Table(board);
     }
 }
