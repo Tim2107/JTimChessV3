@@ -35,11 +35,6 @@ public class Board {
         return activePieces;
     }
 
-   // public List<ChessField> getListOfChessFieldsOnBoard(){
-   //     List fieldList = Arrays.asList(boardGrid);
-   //     return fieldList;
-   // }
-
     public List<ChessField> getListOfChessFieldsOnBoard(){
         List<ChessField> fieldList = new ArrayList();
         for (int i = 0; i < 8; i++) {

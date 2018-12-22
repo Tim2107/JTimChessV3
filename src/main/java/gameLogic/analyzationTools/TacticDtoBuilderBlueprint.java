@@ -10,13 +10,20 @@ import java.util.List;
 
 public class TacticDtoBuilderBlueprint {
 
-    Board board;
     List<Piece> activePieces;
     List<Position> positionsToAnalyze;
-    List<ChessField> fieldsToAnalyze;
+    List<ChessField> fieldsToAnalyze = new ArrayList<>();
     List<List<ChessField>> combinationsToAnalyzeList =new ArrayList();
     List<Position> fieldsInvolved = new ArrayList<>();
     List<Position> executionPoints = new ArrayList<>();
+
+    public void getFieldsToAnalyzeFromPiecesOnBoard(Board board){
+        List<Piece> activePieces = board.getActivePiecesFromFields();
+        activePieces.forEach(piece -> {
+            fieldsToAnalyze.add(board.getChessfield(piece.getPosition()));
+        });
+
+    }
 
     public void goThroughListAndMakeSmallCombinationLists(List<ChessField> fieldsToAnalyze){
         for(int firstIndexInList = 0; firstIndexInList < fieldsToAnalyze.size()-1;firstIndexInList++){
@@ -30,5 +37,7 @@ public class TacticDtoBuilderBlueprint {
     }
 
 
-
+    public List<ChessField> getFieldsToAnalyze() {
+        return fieldsToAnalyze;
+    }
 }
