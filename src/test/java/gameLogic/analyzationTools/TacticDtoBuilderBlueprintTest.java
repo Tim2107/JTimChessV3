@@ -1,14 +1,12 @@
 package gameLogic.analyzationTools;
 
+import gameLogic.analyzationTools.tacticDTOs.PawnTacticDto;
 import gameLogic.pieces.Bishop;
 import gameLogic.pieces.Piece;
 import gameLogic.pieces.Queen;
 import gameLogic.pieces.Rook;
 import org.junit.jupiter.api.Test;
-import utils.Board;
-import utils.BoardCreator;
-import utils.ChessField;
-import utils.Position;
+import utils.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,24 +42,24 @@ class TacticDtoBuilderBlueprintTest {
     }
 
     @Test
-    void fieldsFromBoardTest(){
+    void fieldsFromBoardTest() {
         TacticDtoBuilderBlueprint tacticDtoBuilderBlueprint = new TacticDtoBuilderBlueprint();
 
         List<Piece> piecesOnBoard = new ArrayList<>();
         //King whiteKing = new King("white king", Position.D1);
         //King blackKing = new King("black king",Position.D8);
         Queen whiteQueen = new Queen("white queen", Position.C8);
-        Queen whiteQueen2 = new Queen("white queen", Position.A1);
+        Queen whiteQueen2 = new Queen("white queen", Position.B4);
         //Queen blackQueen = new Queen("black queen", Position.E8);
         //Rook whiteRook1 = new Rook("white rook",Position.A1);
         //Rook whiteRook2 = new Rook("white rook",Position.H1);
-        Rook blackRook1 = new Rook("black rook",Position.A8);
+        Rook blackRook1 = new Rook("black rook", Position.A7);
         //Rook blackRook2 = new Rook("black rook", Position.H8);
         // Knight whiteKnight1 = new Knight("white knight",Position.A8);
         // Knight whiteKnight2 = new Knight("white knight",Position.D5);
         //Knight blackKnight1 = new Knight("black knight",Position.B8);
         //Knight blackKnight2 = new Knight("black knight",Position.G8);
-        Bishop whiteBishop1 = new Bishop("white bishop",Position.C1);
+        Bishop whiteBishop1 = new Bishop("white bishop", Position.D5);
         //Bishop whiteBishop2 = new Bishop("white bishop",Position.F1);
         //Bishop blackBishop1 = new Bishop("black bishop",Position.C8);
         //Bishop blackBishop2 = new Bishop("black bishop",Position.F8);
@@ -93,8 +91,62 @@ class TacticDtoBuilderBlueprintTest {
 
         tacticDtoBuilderBlueprint.getFieldsToAnalyzeFromPiecesOnBoard(board);
 
-       tacticDtoBuilderBlueprint.getFieldsToAnalyze().forEach(field -> {System.out.println(field.getPosition());});
+       /*tacticDtoBuilderBlueprint.getFieldsToAnalyze().forEach(field -> {
+            System.out.println(field.getPosition());
+        });*/
+       tacticDtoBuilderBlueprint.goThroughListAndMakeSmallCombinationLists(tacticDtoBuilderBlueprint.getFieldsToAnalyze());
+
+        List<List<ChessField>> combinationsToAnalyzeList = tacticDtoBuilderBlueprint.getCombinationsToAnalyzeList();
+        combinationsToAnalyzeList.forEach(listEntry -> System.out.println(listEntry.get(0).getPosition() + " " + listEntry.get(1).getPosition()));
 
     }
 
+    @Test
+    void dtoCreationTest(){
+
+        TacticDtoBuilderBlueprint tacticDtoBuilderBlueprint = new TacticDtoBuilderBlueprint();
+
+        List<Piece> piecesOnBoard = new ArrayList<>();
+        //King whiteKing = new King("white king", Position.D1);
+        //King blackKing = new King("black king",Position.D8);
+        Queen whiteQueen = new Queen("white queen", Position.C8);
+        Queen whiteQueen2 = new Queen("white queen", Position.B4);
+        //Queen blackQueen = new Queen("black queen", Position.E8);
+        //Rook whiteRook1 = new Rook("white rook",Position.A1);
+        //Rook whiteRook2 = new Rook("white rook",Position.H1);
+        Rook blackRook1 = new Rook("black rook", Position.F5);
+        Bishop whiteBishop1 = new Bishop("white bishop", Position.D5);
+
+        piecesOnBoard.add(whiteQueen);
+        piecesOnBoard.add(whiteQueen2);
+        piecesOnBoard.add(blackRook1);
+        piecesOnBoard.add(whiteBishop1);
+
+        Board board = new BoardCreator().createBoard(piecesOnBoard);
+
+        tacticDtoBuilderBlueprint.getFieldsToAnalyzeFromPiecesOnBoard(board);
+
+        tacticDtoBuilderBlueprint.goThroughListAndMakeSmallCombinationLists(tacticDtoBuilderBlueprint.getFieldsToAnalyze());
+
+        List<List<ChessField>> combinationsToAnalyzeList = tacticDtoBuilderBlueprint.getCombinationsToAnalyzeList();
+
+        tacticDtoBuilderBlueprint.createAndStoreTacticDtos(combinationsToAnalyzeList,"pawn", Alliance.BLACK);
+
+        List<PawnTacticDto> testTacticDtos = tacticDtoBuilderBlueprint.getPawnTacticDtos();
+
+        testTacticDtos.forEach(dto -> {
+            List<Position> executionPoints = dto.getExecutionPoints();
+            List<Position> fieldsInvolved = dto.getFieldsInvolved();
+
+
+            System.out.println(executionPoints);
+            System.out.println(fieldsInvolved);
+            System.out.println();
+
+
+
+        });
+
+
+    }
 }

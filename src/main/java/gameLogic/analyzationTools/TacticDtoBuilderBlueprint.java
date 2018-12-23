@@ -1,6 +1,9 @@
 package gameLogic.analyzationTools;
 
+import gameLogic.analyzationTools.tacticAnalyzers.*;
+import gameLogic.analyzationTools.tacticDTOs.*;
 import gameLogic.pieces.Piece;
+import utils.Alliance;
 import utils.Board;
 import utils.ChessField;
 import utils.Position;
@@ -14,8 +17,12 @@ public class TacticDtoBuilderBlueprint {
     List<Position> positionsToAnalyze;
     List<ChessField> fieldsToAnalyze = new ArrayList<>();
     List<List<ChessField>> combinationsToAnalyzeList =new ArrayList();
-    List<Position> fieldsInvolved = new ArrayList<>();
-    List<Position> executionPoints = new ArrayList<>();
+    List<KingTacticDto> kingTacticDtos = new ArrayList<>();
+    List<QueenTacticDto> queenTacticDtos = new ArrayList<>();
+    List<RookTacticDto> rookTacticDtos = new ArrayList<>();
+    List<KnightTacticDto> knightTacticDtos = new ArrayList<>();
+    List<BishopTacticDto> bishopTacticDtos = new ArrayList<>();
+    List<PawnTacticDto> pawnTacticDtos = new ArrayList<>();
 
     public void getFieldsToAnalyzeFromPiecesOnBoard(Board board){
         List<Piece> activePieces = board.getActivePiecesFromFields();
@@ -36,8 +43,95 @@ public class TacticDtoBuilderBlueprint {
         }
     }
 
+    public void createAndStoreTacticDtos(List<List<ChessField>> fieldPairList, String typeswithch, Alliance alliance){
+
+        fieldPairList.forEach(pair -> {
+            TacticAnalyzerFactory analyzerFactory = new TacticAnalyzerFactory();
+            TacticAnalyzer tacticAnalyzer = analyzerFactory.instantiateTacticAnalyzer(pair, alliance, typeswithch);
+            if(!tacticAnalyzer.getChessTacticDto().getExecutionPoints().isEmpty()){
+
+                ChessTacticDto tacticDto = tacticAnalyzer.getChessTacticDto();
+
+
+                if (typeswithch.equalsIgnoreCase("king")){
+                    kingTacticDtos.add((KingTacticDto)tacticDto);
+                }
+
+                else if (typeswithch.equalsIgnoreCase("queen")){
+                    queenTacticDtos.add((QueenTacticDto)tacticDto);
+                }
+
+                else if (typeswithch.equalsIgnoreCase("rook")){
+                    rookTacticDtos.add((RookTacticDto)tacticDto);
+                }
+
+                else if (typeswithch.equalsIgnoreCase("knight")){
+                    knightTacticDtos.add((KnightTacticDto)tacticDto);
+                }
+
+                else if (typeswithch.equalsIgnoreCase("bishop")){
+                    bishopTacticDtos.add((BishopTacticDto)tacticDto);
+                }
+
+                else if (typeswithch.equalsIgnoreCase("pawn")){
+                    pawnTacticDtos.add((PawnTacticDto)tacticDto);
+                }
+            }
+        });
+    }
+
+    public void createAndStoreKnightTacticDtos(List<List<ChessField>> fieldPairList){
+
+        fieldPairList.forEach(pair -> {
+            KnightTacticAnalyzer knightTacticAnalyzer = new KnightTacticAnalyzer(pair, Alliance.WHITE);
+            if(!knightTacticAnalyzer.getChessTacticDto().getExecutionPoints().isEmpty()){
+                KnightTacticDto knightTacticDto = (KnightTacticDto)knightTacticAnalyzer.getChessTacticDto();
+                knightTacticDtos.add(knightTacticDto);}
+        });
+    }
+
+    public void createAndStoreKingTacticDtos(List<List<ChessField>> fieldPairList){
+
+        fieldPairList.forEach(pair -> {
+            KnightTacticAnalyzer knightTacticAnalyzer = new KnightTacticAnalyzer(pair, Alliance.WHITE);
+            if(!knightTacticAnalyzer.getChessTacticDto().getExecutionPoints().isEmpty()){
+                KnightTacticDto knightTacticDto = (KnightTacticDto)knightTacticAnalyzer.getChessTacticDto();
+                knightTacticDtos.add(knightTacticDto);}
+        });
+    }
+
+
+
 
     public List<ChessField> getFieldsToAnalyze() {
         return fieldsToAnalyze;
+    }
+
+    public List<List<ChessField>> getCombinationsToAnalyzeList() {
+        return combinationsToAnalyzeList;
+    }
+
+    public List<KnightTacticDto> getKnightTacticDtos() {
+        return knightTacticDtos;
+    }
+
+    public List<KingTacticDto> getKingTacticDtos() {
+        return kingTacticDtos;
+    }
+
+    public List<QueenTacticDto> getQueenTacticDtos() {
+        return queenTacticDtos;
+    }
+
+    public List<RookTacticDto> getRookTacticDtos() {
+        return rookTacticDtos;
+    }
+
+    public List<BishopTacticDto> getBishopTacticDtos() {
+        return bishopTacticDtos;
+    }
+
+    public List<PawnTacticDto> getPawnTacticDtos() {
+        return pawnTacticDtos;
     }
 }

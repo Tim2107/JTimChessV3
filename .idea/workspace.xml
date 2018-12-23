@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/TacticDtoBuilderBlueprintTest.java" line="40" mnemonic="8" />
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/TacticDtoBuilderBlueprintTest.java" line="38" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73bc48d0-555f-4dba-808e-852e256d63fa" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzerFactory.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JTimChess.java" afterPath="$PROJECT_DIR$/src/main/java/JTimChess.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/TacticDtoBuilderBlueprint.java" afterPath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/TacticDtoBuilderBlueprint.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Board.java" afterPath="$PROJECT_DIR$/src/main/java/utils/Board.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/BishopTacticAnalyzer.java" afterPath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/BishopTacticAnalyzer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/KingTacticAnalyzer.java" afterPath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/KingTacticAnalyzer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/KnightTacticAnalyzer.java" afterPath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/KnightTacticAnalyzer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/PawnTacticAnalyzer.java" afterPath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/PawnTacticAnalyzer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/QueenTacticAnalyzer.java" afterPath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/QueenTacticAnalyzer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/RookTacticAnalyzer.java" afterPath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/RookTacticAnalyzer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzerBase.java" afterPath="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzerBase.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/Table.java" afterPath="$PROJECT_DIR$/src/main/java/gui/Table.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/TacticDtoBuilderBlueprintTest.java" afterPath="$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/TacticDtoBuilderBlueprintTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JTimChess.class" afterPath="$PROJECT_DIR$/target/classes/JTimChess.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/TacticDtoBuilderBlueprint.class" afterPath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/TacticDtoBuilderBlueprint.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/tacticAnalyzers/BishopTacticAnalyzer.class" afterPath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/tacticAnalyzers/BishopTacticAnalyzer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/tacticAnalyzers/KingTacticAnalyzer.class" afterPath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/tacticAnalyzers/KingTacticAnalyzer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/tacticAnalyzers/KnightTacticAnalyzer.class" afterPath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/tacticAnalyzers/KnightTacticAnalyzer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/tacticAnalyzers/PawnTacticAnalyzer.class" afterPath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/tacticAnalyzers/PawnTacticAnalyzer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/tacticAnalyzers/QueenTacticAnalyzer.class" afterPath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/tacticAnalyzers/QueenTacticAnalyzer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/tacticAnalyzers/RookTacticAnalyzer.class" afterPath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/tacticAnalyzers/RookTacticAnalyzer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzerBase.class" afterPath="$PROJECT_DIR$/target/classes/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzerBase.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/Table$TilePanel.class" afterPath="$PROJECT_DIR$/target/classes/gui/Table$TilePanel.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gameLogic/analyzationTools/TacticDtoBuilderBlueprintTest.class" afterPath="$PROJECT_DIR$/target/test-classes/gameLogic/analyzationTools/TacticDtoBuilderBlueprintTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,48 +45,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Board.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KingTacticAnalyzerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/tacticAnalyzers/KingTacticAnalyzerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BishopTacticAnalyzerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/tacticAnalyzers/BishopTacticAnalyzerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TacticDtoBuilderBlueprint.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/TacticDtoBuilderBlueprint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="-979">
+              <caret line="49" column="100" lean-forward="false" selection-start-line="49" selection-start-column="100" selection-end-line="49" selection-end-column="100" />
               <folding>
-                <element signature="e#1479#1480#0" expanded="true" />
-                <element signature="e#1517#1518#0" expanded="true" />
+                <element signature="e#4636#4637#0" expanded="true" />
+                <element signature="e#4673#4674#0" expanded="true" />
+                <element signature="e#4729#4730#0" expanded="true" />
+                <element signature="e#4767#4768#0" expanded="true" />
+                <element signature="e#4821#4822#0" expanded="true" />
+                <element signature="e#4858#4859#0" expanded="true" />
+                <element signature="e#4916#4917#0" expanded="true" />
+                <element signature="e#4955#4956#0" expanded="true" />
+                <element signature="e#5009#5010#0" expanded="true" />
+                <element signature="e#5046#5047#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +69,18 @@
       <file leaf-file-name="TacticDtoBuilderBlueprintTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/TacticDtoBuilderBlueprintTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="889">
-              <caret line="88" column="38" lean-forward="false" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
+            <state relative-caret-position="693">
+              <caret line="132" column="107" lean-forward="false" selection-start-line="132" selection-start-column="107" selection-end-line="132" selection-end-column="107" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TacticAnalyzerFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzerFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="31" column="19" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -83,33 +89,9 @@
       <file leaf-file-name="JTimChess.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JTimChess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="51" column="30" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="26" column="63" lean-forward="true" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AttackAnalyzer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/AttackAnalyzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TacticAnalyzerBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzerBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3087#3088#0" expanded="true" />
-                <element signature="e#3124#3125#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -120,9 +102,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -140,15 +122,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/RookTacticDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/QueenTacticDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/PawnTacticDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/KnightTacticDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/BishopTacticDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/ChessField.java" />
         <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/TacticDto.java" />
         <option value="$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/KnightAnalyzerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/Table.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/BoardCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/Analyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/AttackAnalyzer.java" />
@@ -175,22 +154,25 @@
         <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/RookTacticAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/TacticAnalyzerBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/RookTacticAnalyzerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/KnightTacticAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzerBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/AttackAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/RookTacticAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/KingTacticAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/QueenTacticAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/PawnTacticAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/BishopTacticAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/tacticAnalyzers/QueenTacticAnalyzerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JTimChess.java" />
         <option value="$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/tacticAnalyzers/PawnTacticAnalyzerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/tacticAnalyzers/KingTacticAnalyzerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/tacticAnalyzers/BishopTacticAnalyzerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Board.java" />
-        <option value="$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/TacticDtoBuilderBlueprintTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/Table.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/RookTacticAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzerBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/QueenTacticAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/PawnTacticAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/KnightTacticAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/KingTacticAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/BishopTacticAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzerFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JTimChess.java" />
         <option value="$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/TacticDtoBuilderBlueprint.java" />
+        <option value="$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/TacticDtoBuilderBlueprintTest.java" />
       </list>
     </option>
   </component>
@@ -239,7 +221,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -297,6 +281,42 @@
               <item name="JTimchessV2" type="b2602c69:ProjectViewProjectNode" />
               <item name="JTimChessV2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gameLogic" type="462c0819:PsiDirectoryNode" />
+              <item name="analyzationTools" type="462c0819:PsiDirectoryNode" />
+              <item name="tacticDTOs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JTimchessV2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JTimChessV2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gameLogic" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JTimchessV2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JTimChessV2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gameLogic" type="462c0819:PsiDirectoryNode" />
+              <item name="pieces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JTimchessV2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JTimChessV2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JTimchessV2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JTimChessV2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -323,12 +343,45 @@
               <item name="gameLogic" type="462c0819:PsiDirectoryNode" />
               <item name="analyzationTools" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JTimchessV2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JTimChessV2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gameLogic" type="462c0819:PsiDirectoryNode" />
+              <item name="analyzationTools" type="462c0819:PsiDirectoryNode" />
+              <item name="tacticAnalyzers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JTimchessV2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JTimChessV2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gameLogic" type="462c0819:PsiDirectoryNode" />
+              <item name="pieces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JTimchessV2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JTimChessV2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JTimchessV2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JTimChessV2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,13 +427,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TacticDtoBuilderBlueprintTest.fieldsFromBoardTest">
+  <component name="RunManager" selected="JUnit.TacticDtoBuilderBlueprintTest.dtoCreationTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="JTimChess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="JTimChess" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JTimChessV2" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -421,19 +488,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="KingTacticAnalyzerTest.dtoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TacticDtoBuilderBlueprintTest.dtoCreationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="gameLogic.analyzationTools.tacticAnalyzers.*" />
+          <option name="PATTERN" value="gameLogic.analyzationTools.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="JTimChessV2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="gameLogic.analyzationTools.tacticAnalyzers" />
-      <option name="MAIN_CLASS_NAME" value="gameLogic.analyzationTools.tacticAnalyzers.KingTacticAnalyzerTest" />
-      <option name="METHOD_NAME" value="dtoTest" />
+      <option name="PACKAGE_NAME" value="gameLogic.analyzationTools" />
+      <option name="MAIN_CLASS_NAME" value="gameLogic.analyzationTools.TacticDtoBuilderBlueprintTest" />
+      <option name="METHOD_NAME" value="dtoCreationTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -446,44 +513,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="KnightTacticAnalyzerTest.dtoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TacticDtoBuilderBlueprintTest.fieldCombinationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="gameLogic.analyzationTools.tacticAnalyzers.*" />
+          <option name="PATTERN" value="gameLogic.analyzationTools.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="JTimChessV2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="gameLogic.analyzationTools.tacticAnalyzers" />
-      <option name="MAIN_CLASS_NAME" value="gameLogic.analyzationTools.tacticAnalyzers.KnightTacticAnalyzerTest" />
-      <option name="METHOD_NAME" value="dtoTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="PawnTacticAnalyzerTest.dtoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="gameLogic.analyzationTools.tacticAnalyzers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JTimChessV2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="gameLogic.analyzationTools.tacticAnalyzers" />
-      <option name="MAIN_CLASS_NAME" value="gameLogic.analyzationTools.tacticAnalyzers.PawnTacticAnalyzerTest" />
-      <option name="METHOD_NAME" value="dtoTest" />
+      <option name="PACKAGE_NAME" value="gameLogic.analyzationTools" />
+      <option name="MAIN_CLASS_NAME" value="gameLogic.analyzationTools.TacticDtoBuilderBlueprintTest" />
+      <option name="METHOD_NAME" value="fieldCombinationTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -582,19 +624,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.KnightTacticAnalyzerTest.dtoTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PawnTacticAnalyzerTest.dtoTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.KingTacticAnalyzerTest.dtoTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BishopTacticAnalyzerTest.dtoTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TacticDtoBuilderBlueprintTest.fieldsFromBoardTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BishopTacticAnalyzerTest.dtoTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TacticDtoBuilderBlueprintTest.fieldsFromBoardTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TacticDtoBuilderBlueprintTest.fieldCombinationTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TacticDtoBuilderBlueprintTest.dtoCreationTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.JTimChess" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TacticDtoBuilderBlueprintTest.fieldsFromBoardTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BishopTacticAnalyzerTest.dtoTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.KingTacticAnalyzerTest.dtoTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.KnightTacticAnalyzerTest.dtoTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PawnTacticAnalyzerTest.dtoTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TacticDtoBuilderBlueprintTest.dtoCreationTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TacticDtoBuilderBlueprintTest.fieldsFromBoardTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.JTimChess" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TacticDtoBuilderBlueprintTest.fieldCombinationTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BishopTacticAnalyzerTest.dtoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -623,34 +665,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BishopTacticAnalyzerTest_dtoTest - 2018.12.22 at 01h 47m 10s.xml">
-      <configuration name="BishopTacticAnalyzerTest.dtoTest" configurationId="JUnit" />
+    <history-entry file="TacticDtoBuilderBlueprintTest_dtoCreationTest - 2018.12.23 at 00h 08m 41s.xml">
+      <configuration name="TacticDtoBuilderBlueprintTest.dtoCreationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KingTacticAnalyzerTest_dtoTest - 2018.12.22 at 01h 44m 54s.xml">
-      <configuration name="KingTacticAnalyzerTest.dtoTest" configurationId="JUnit" />
+    <history-entry file="TacticDtoBuilderBlueprintTest_dtoCreationTest - 2018.12.23 at 00h 14m 02s.xml">
+      <configuration name="TacticDtoBuilderBlueprintTest.dtoCreationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KnightTacticAnalyzerTest_dtoTest - 2018.12.22 at 01h 43m 36s.xml">
-      <configuration name="KnightTacticAnalyzerTest.dtoTest" configurationId="JUnit" />
+    <history-entry file="TacticDtoBuilderBlueprintTest_dtoCreationTest - 2018.12.23 at 00h 16m 04s.xml">
+      <configuration name="TacticDtoBuilderBlueprintTest.dtoCreationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PawnTacticAnalyzerTest_dtoTest - 2018.12.22 at 01h 35m 57s.xml">
-      <configuration name="PawnTacticAnalyzerTest.dtoTest" configurationId="JUnit" />
+    <history-entry file="TacticDtoBuilderBlueprintTest_dtoCreationTest - 2018.12.23 at 00h 19m 39s.xml">
+      <configuration name="TacticDtoBuilderBlueprintTest.dtoCreationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PawnTacticAnalyzerTest_dtoTest - 2018.12.22 at 01h 36m 50s.xml">
-      <configuration name="PawnTacticAnalyzerTest.dtoTest" configurationId="JUnit" />
+    <history-entry file="TacticDtoBuilderBlueprintTest_dtoCreationTest - 2018.12.23 at 00h 27m 19s.xml">
+      <configuration name="TacticDtoBuilderBlueprintTest.dtoCreationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueenTacticAnalyzerTest_dtoTest - 2018.12.22 at 01h 32m 24s.xml">
-      <configuration name="QueenTacticAnalyzerTest.dtoTest" configurationId="JUnit" />
+    <history-entry file="TacticDtoBuilderBlueprintTest_dtoCreationTest - 2018.12.23 at 00h 31m 09s.xml">
+      <configuration name="TacticDtoBuilderBlueprintTest.dtoCreationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TacticDtoBuilderBlueprintTest_fieldsFromBoardTest - 2018.12.22 at 02h 48m 33s.xml">
+    <history-entry file="TacticDtoBuilderBlueprintTest_dtoCreationTest - 2018.12.23 at 00h 32m 01s.xml">
+      <configuration name="TacticDtoBuilderBlueprintTest.dtoCreationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TacticDtoBuilderBlueprintTest_dtoCreationTest - 2018.12.23 at 00h 40m 37s.xml">
+      <configuration name="TacticDtoBuilderBlueprintTest.dtoCreationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TacticDtoBuilderBlueprintTest_fieldsFromBoardTest - 2018.12.23 at 00h 13m 48s.xml">
       <configuration name="TacticDtoBuilderBlueprintTest.fieldsFromBoardTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TacticDtoBuilderBlueprintTest_fieldsFromBoardTest - 2018.12.22 at 02h 49m 39s.xml">
-      <configuration name="TacticDtoBuilderBlueprintTest.fieldsFromBoardTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TacticDtoBuilderBlueprintTest_fieldsFromBoardTest - 2018.12.22 at 02h 53m 11s.xml">
-      <configuration name="TacticDtoBuilderBlueprintTest.fieldsFromBoardTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TacticDtoBuilderBlueprintTest_fieldsFromBoardTest - 2018.12.22 at 02h 54m 58s.xml">
+    <history-entry file="TacticDtoBuilderBlueprintTest_fieldsFromBoardTest - 2018.12.23 at 00h 31m 42s.xml">
       <configuration name="TacticDtoBuilderBlueprintTest.fieldsFromBoardTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -665,6 +707,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="732" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -679,8 +722,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33307928" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328152" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2667683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -694,6 +736,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328152" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -719,7 +762,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34542313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33307928" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2667683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328152" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -735,7 +778,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="24" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -763,75 +806,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/patterns/KnightPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/patterns/KingPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/DisplayOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/DisplayOptionBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/patterns/ChessPatternBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticDTOs/BishopTacticDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticDTOs/PawnTacticDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="75" lean-forward="false" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticDTOs/QueenTacticDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="76" lean-forward="false" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticDTOs/RookTacticDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="75" lean-forward="false" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,17 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticDTOs/ChessTacticDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="62" lean-forward="false" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,23 +838,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/KnightAttackAnalyzerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/KnightAttackAnalyzerTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/Alliance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -897,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6">
           <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -905,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="32" column="95" lean-forward="false" selection-start-line="32" selection-start-column="95" selection-end-line="32" selection-end-column="95" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -921,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="28" column="15" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,7 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
           <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,9 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#856#857#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -955,15 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/patterns/ChessPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,18 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
           <caret line="54" column="42" lean-forward="true" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
-          <folding>
-            <element signature="e#1041#1042#0" expanded="false" />
-            <element signature="e#1096#1097#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/pieces/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
           <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,15 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="48" column="46" lean-forward="false" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gui/TableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,89 +930,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="32" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/patterns/ChessPatternFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/RookTacticAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/KnightTacticAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/KingTacticAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/PawnTacticAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/QueenTacticAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/BishopTacticAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/RookTacticAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/RookTacticAnalyzer.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/tacticAnalyzers/RookTacticAnalyzerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="22" column="19" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="28" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1104,29 +945,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="17" column="11" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="28" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/tacticAnalyzers/KingTacticAnalyzerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/tacticAnalyzers/BishopTacticAnalyzerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1134,19 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzerBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3087#3088#0" expanded="true" />
-            <element signature="e#3124#3125#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1154,9 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1164,43 +973,202 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
           <caret line="16" column="10" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
+        <state relative-caret-position="76">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/tacticAnalyzers/BishopTacticAnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gui/TableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/patterns/ChessPatternBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/pieces/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/pieces/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/pieces/PawnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/pieces/KnightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="205" column="44" lean-forward="false" selection-start-line="205" selection-start-column="44" selection-end-line="205" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/patterns/ChessPatternFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticDTOs/ChessTacticDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="62" lean-forward="false" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/patterns/ChessPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticDTOs/BishopTacticDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzerBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/QueenTacticAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="86" lean-forward="false" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/KnightTacticAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="87" lean-forward="false" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/KingTacticAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="85" lean-forward="false" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/BishopTacticAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="87" lean-forward="false" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/PawnTacticAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="85" lean-forward="false" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/RookTacticAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JTimChess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="51" column="30" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="26" column="63" lean-forward="true" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/tacticAnalyzers/TacticAnalyzerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="31" column="19" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gameLogic/analyzationTools/TacticDtoBuilderBlueprintTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="889">
-          <caret line="88" column="38" lean-forward="false" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
+        <state relative-caret-position="693">
+          <caret line="132" column="107" lean-forward="false" selection-start-line="132" selection-start-column="107" selection-end-line="132" selection-end-column="107" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gameLogic/analyzationTools/TacticDtoBuilderBlueprint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="-979">
+          <caret line="49" column="100" lean-forward="false" selection-start-line="49" selection-start-column="100" selection-end-line="49" selection-end-column="100" />
           <folding>
-            <element signature="e#1479#1480#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#4636#4637#0" expanded="true" />
+            <element signature="e#4673#4674#0" expanded="true" />
+            <element signature="e#4729#4730#0" expanded="true" />
+            <element signature="e#4767#4768#0" expanded="true" />
+            <element signature="e#4821#4822#0" expanded="true" />
+            <element signature="e#4858#4859#0" expanded="true" />
+            <element signature="e#4916#4917#0" expanded="true" />
+            <element signature="e#4955#4956#0" expanded="true" />
+            <element signature="e#5009#5010#0" expanded="true" />
+            <element signature="e#5046#5047#0" expanded="true" />
           </folding>
         </state>
       </provider>

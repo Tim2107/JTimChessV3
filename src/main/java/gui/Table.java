@@ -201,6 +201,14 @@ public final class Table {
             PositionTranslator guiMapper = new PositionTranslator(null, null, null, tileId);
             int positionValue = pattern[guiMapper.getColumnInLogicGrid()][guiMapper.getRowInLogicGrid()];
 
+            for (int j = 7; j > -1; j--) {
+                for (int i = 0; i < 8; i++) {
+                    System.out.print(pattern[i][j]);
+                }
+                System.out.println();
+            }
+
+
               if(positionValue == 1){
                   setBackground(isAttacked1White);
               }

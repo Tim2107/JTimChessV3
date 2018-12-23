@@ -10,6 +10,7 @@ import java.util.*;
 import static java.lang.Math.abs;
 
 public abstract class TacticAnalyzerBase {
+
     int[][] compositionGrid = new int[8][8];
 
     private List<ChessField> fieldsToAnalyze = new ArrayList<>();
@@ -51,15 +52,6 @@ public abstract class TacticAnalyzerBase {
                 }
         );
 
-        for (int j = 7; j > -1; j--) {
-            for (int i = 0; i < 8; i++) {
-                System.out.print(compositionGrid[i][j]);
-            }
-            System.out.println();
-
-        }
-
-
 
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
@@ -78,6 +70,18 @@ public abstract class TacticAnalyzerBase {
         chessTacticDto.setExecutionPoints(executionPoints);
         chessTacticDto.setFieldsInvolved(fieldsInvolved);
         return chessTacticDto;
+    }
+
+    public List<ChessField> getFieldsToAnalyze() {
+        return fieldsToAnalyze;
+    }
+
+    public List<Position> getFieldsInvolved() {
+        return fieldsInvolved;
+    }
+
+    public List<Position> getExecutionPoints() {
+        return executionPoints;
     }
 
     public ChessTacticDto getChessTacticDto() {

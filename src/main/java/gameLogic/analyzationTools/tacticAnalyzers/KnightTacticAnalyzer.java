@@ -5,7 +5,7 @@ import utils.ChessField;
 
 import java.util.List;
 
-public class KnightTacticAnalyzer extends TacticAnalyzerBase {
+public class KnightTacticAnalyzer extends TacticAnalyzerBase implements TacticAnalyzer {
 
 
     public KnightTacticAnalyzer(List<ChessField> fieldsToAnalyze, Alliance alliance){
