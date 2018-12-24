@@ -26,10 +26,10 @@ public class JTimChess {
         //Rook whiteRook2 = new Rook("white rook",Position.H1);
         //Rook blackRook1 = new Rook("black rook",Position.A8);
         //Rook blackRook2 = new Rook("black rook", Position.H8);
-        Piece testPiece1 = new Bishop("white king",Position.A7);
-        Piece testPiece2 = new Bishop("white knight",Position.D5);
-        Piece testPiece3 = new Bishop("white knight",Position.C8);
-        Piece testPiece4 = new Bishop("white knight",Position.B4);
+        Piece testPiece1 = new Knight("white king",Position.F5);
+        Piece testPiece2 = new Knight("white knight",Position.D5);
+        Piece testPiece3 = new Knight("white knight",Position.C8);
+        Piece testPiece4 = new Knight("white knight",Position.B6);
 
 
 

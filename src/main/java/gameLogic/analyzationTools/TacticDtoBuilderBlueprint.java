@@ -24,15 +24,15 @@ public class TacticDtoBuilderBlueprint {
     List<BishopTacticDto> bishopTacticDtos = new ArrayList<>();
     List<PawnTacticDto> pawnTacticDtos = new ArrayList<>();
 
-    public void getFieldsToAnalyzeFromPiecesOnBoard(Board board){
+    public List<ChessField> getFieldsToAnalyzeFromPiecesOnBoard(Board board){
         List<Piece> activePieces = board.getActivePiecesFromFields();
         activePieces.forEach(piece -> {
             fieldsToAnalyze.add(board.getChessfield(piece.getPosition()));
         });
-
+        return fieldsToAnalyze;
     }
 
-    public void goThroughListAndMakeSmallCombinationLists(List<ChessField> fieldsToAnalyze){
+    public List<List<ChessField>> goThroughListAndMakeSmallCombinationLists(List<ChessField> fieldsToAnalyze){
         for(int firstIndexInList = 0; firstIndexInList < fieldsToAnalyze.size()-1;firstIndexInList++){
             for(int secondIndexInList = firstIndexInList + 1; secondIndexInList < fieldsToAnalyze.size();secondIndexInList++){
                 List<ChessField> combiList = new ArrayList<>();
@@ -41,6 +41,7 @@ public class TacticDtoBuilderBlueprint {
                 combinationsToAnalyzeList.add(combiList);
             }
         }
+        return combinationsToAnalyzeList;
     }
 
     public void createAndStoreTacticDtos(List<List<ChessField>> fieldPairList, String typeswithch, Alliance alliance){
@@ -79,29 +80,6 @@ public class TacticDtoBuilderBlueprint {
             }
         });
     }
-
-    public void createAndStoreKnightTacticDtos(List<List<ChessField>> fieldPairList){
-
-        fieldPairList.forEach(pair -> {
-            KnightTacticAnalyzer knightTacticAnalyzer = new KnightTacticAnalyzer(pair, Alliance.WHITE);
-            if(!knightTacticAnalyzer.getChessTacticDto().getExecutionPoints().isEmpty()){
-                KnightTacticDto knightTacticDto = (KnightTacticDto)knightTacticAnalyzer.getChessTacticDto();
-                knightTacticDtos.add(knightTacticDto);}
-        });
-    }
-
-    public void createAndStoreKingTacticDtos(List<List<ChessField>> fieldPairList){
-
-        fieldPairList.forEach(pair -> {
-            KnightTacticAnalyzer knightTacticAnalyzer = new KnightTacticAnalyzer(pair, Alliance.WHITE);
-            if(!knightTacticAnalyzer.getChessTacticDto().getExecutionPoints().isEmpty()){
-                KnightTacticDto knightTacticDto = (KnightTacticDto)knightTacticAnalyzer.getChessTacticDto();
-                knightTacticDtos.add(knightTacticDto);}
-        });
-    }
-
-
-
 
     public List<ChessField> getFieldsToAnalyze() {
         return fieldsToAnalyze;

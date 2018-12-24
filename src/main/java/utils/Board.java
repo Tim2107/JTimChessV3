@@ -1,5 +1,6 @@
 package utils;
 
+import gameLogic.analyzationTools.tacticDTOs.*;
 import gameLogic.pieces.Piece;
 
 import java.util.ArrayList;
@@ -18,6 +19,51 @@ public class Board {
     public ChessField getChessfield(Position position) {
         return boardGrid[position.convertPositionToColumn()][position.convertPositionToRow()];
     }
+
+    public void elevateExecutionEvaluationLevelInField(Position position){
+        PositionTranslator positionTranslator = new PositionTranslator(position, null, null, null);
+        ChessField chessFieldToManipulate = boardGrid[positionTranslator.getColumnInLogicGrid()][positionTranslator.getRowInLogicGrid()];
+        int executionEvaluationLevel = chessFieldToManipulate.getExecutionEvaluationLevel();
+        executionEvaluationLevel = executionEvaluationLevel +1;
+        chessFieldToManipulate.setExecutionEvaluationLevel(executionEvaluationLevel);
+    }
+
+    public void elevateInvolvementEvaluationLevelInField(Position position){
+        PositionTranslator positionTranslator = new PositionTranslator(position, null, null, null);
+        ChessField chessFieldToManipulate = boardGrid[positionTranslator.getColumnInLogicGrid()][positionTranslator.getRowInLogicGrid()];
+        int involvementEvaluationLevel = chessFieldToManipulate.getInvolvementEvaluationLevel();
+        involvementEvaluationLevel = involvementEvaluationLevel + 1;
+        chessFieldToManipulate.setInvolvementEvaluationLevel(involvementEvaluationLevel);
+    }
+
+    public void setTacticDtoOnField(Position position, ChessTacticDto tacticDto, String typeSwitch){
+
+        PositionTranslator fieldChosen = new PositionTranslator(position,null,null,null);
+
+        ChessField chessFieldToManipulate = boardGrid[fieldChosen.getColumnInLogicGrid()][fieldChosen.getRowInLogicGrid()];
+
+             if (typeSwitch.equalsIgnoreCase("king")){
+                chessFieldToManipulate.setKingTacticDtos((KingTacticDto)tacticDto);
+            }
+
+            else if (typeSwitch.equalsIgnoreCase("queen")){
+               chessFieldToManipulate.setQueenTacticDtos((QueenTacticDto)tacticDto);
+            }
+            else if (typeSwitch.equalsIgnoreCase("rook")){
+                 chessFieldToManipulate.setRookTacticDtos((RookTacticDto)tacticDto);
+            }
+            else if (typeSwitch.equalsIgnoreCase("knight")){
+                chessFieldToManipulate.setKnightTacticDtos((KnightTacticDto)tacticDto);
+            }
+            else if (typeSwitch.equalsIgnoreCase("bishop")){
+                chessFieldToManipulate.setBishopTacticDtos((BishopTacticDto)tacticDto);
+            }
+
+            else if (typeSwitch.equalsIgnoreCase("pawn")){
+                chessFieldToManipulate.setPawnTacticDtos((PawnTacticDto)tacticDto);
+            }
+    }
+
 
     public List<Piece> getActivePiecesFromFields(){
         List<Piece> activePieces = new ArrayList<>();
