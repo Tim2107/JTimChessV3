@@ -17,6 +17,7 @@ public abstract class TacticAnalyzerBase {
     private List<Position> fieldsInvolved = new ArrayList<>();
     private List<Position> executionPoints = new ArrayList<>();
 
+
     ChessTacticDto chessTacticDto;
 
     public TacticAnalyzerBase(List<ChessField> fieldsToAnalyze, Alliance alliance, String typeSwitch){

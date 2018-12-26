@@ -64,6 +64,6 @@ public class JTimChess {
 
         Board board = new BoardCreator().createBoard(piecesOnBoard);
 
-        Table table = new Table(board);
+        Table table = new Table(startingBoard);
     }
 }
